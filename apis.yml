@@ -1,7 +1,11 @@
 aid: kla-tencor
-url: https://raw.githubusercontent.com/api-evangelist/kla-tencor/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/kla-tencor/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.kla-tencor.com
+description: >-
+  KLA is a leader in process control using advanced inspection tools, metrology systems,
+  and computational analytics. Keep Looking Ahead.
