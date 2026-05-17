@@ -38,7 +38,7 @@ common:
     url: https://www.kla.com/careers
   - type: Contact
     url: https://www.kla.com/contact-us
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.kla.com/privacy-policy
   - type: Terms of Use
     url: https://www.kla.com/terms-of-use
