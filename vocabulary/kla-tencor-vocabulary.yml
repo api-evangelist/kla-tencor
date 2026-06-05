@@ -1,0 +1,146 @@
+vocabulary:
+  name: KLA Corporation Industrial Vocabulary
+  description: >-
+    Key terms and concepts used in KLA Corporation's semiconductor process control,
+    metrology, and inspection domain. KLA is a leading supplier of process control
+    equipment for semiconductor wafer and reticle manufacturing.
+  version: "1.0"
+  terms:
+    - term: Process Control
+      definition: >-
+        Systems and techniques used to monitor, measure, and control semiconductor
+        manufacturing processes to ensure that wafers and devices meet specifications.
+        KLA's process control solutions detect and characterize defects at every stage
+        of chip fabrication.
+      tags:
+        - semiconductor
+        - manufacturing
+        - quality
+
+    - term: Metrology
+      definition: >-
+        The science of measurement applied to semiconductor fabrication. In KLA's
+        context, metrology refers to precision measurement of critical dimensions,
+        film thickness, overlay accuracy, and other physical parameters on wafers
+        and reticles to verify process conformance.
+      tags:
+        - measurement
+        - semiconductor
+        - fabrication
+
+    - term: Wafer Inspection
+      definition: >-
+        Automated optical or electron-beam scanning of silicon wafers to detect
+        surface defects, particles, and pattern anomalies during semiconductor
+        manufacturing. KLA's inspection tools identify yield-limiting defects
+        before they propagate through additional process steps.
+      tags:
+        - inspection
+        - wafer
+        - defect-detection
+
+    - term: Reticle Inspection
+      definition: >-
+        High-precision inspection of photomasks (reticles) used in photolithography
+        to ensure they are free of defects before being used to print circuit patterns
+        onto wafers. Defects on a reticle print repeatedly and can cause large yield
+        losses.
+      tags:
+        - reticle
+        - photomask
+        - inspection
+        - lithography
+
+    - term: Overlay
+      definition: >-
+        The alignment accuracy between successive lithographic layers printed on a
+        wafer. Overlay metrology measures the registration error between layers to
+        ensure transistors and interconnects are correctly positioned relative to
+        each other.
+      tags:
+        - metrology
+        - lithography
+        - alignment
+
+    - term: Critical Dimension (CD)
+      definition: >-
+        The smallest feature size that must be accurately controlled in a semiconductor
+        device, such as gate length or metal line width. CD metrology tools measure
+        whether features printed by lithography conform to design specifications.
+      tags:
+        - metrology
+        - lithography
+        - dimensions
+
+    - term: Yield Management
+      definition: >-
+        The set of practices and systems used to maximize the percentage of functional
+        chips produced from a semiconductor wafer. KLA's computational analytics
+        correlate inspection and metrology data to identify root causes of yield loss.
+      tags:
+        - yield
+        - analytics
+        - manufacturing
+
+    - term: Computational Analytics
+      definition: >-
+        Data analysis and machine learning algorithms applied to large volumes of
+        inspection and metrology data to identify patterns, predict defect sources,
+        and optimize semiconductor manufacturing processes. A core capability of
+        KLA's software offerings.
+      tags:
+        - analytics
+        - machine-learning
+        - data
+
+    - term: Etch Process Control
+      definition: >-
+        Monitoring and control of plasma etch processes used to remove material from
+        wafer surfaces. KLA's etch process control tools measure etch depth, uniformity,
+        and endpoint to maintain pattern fidelity.
+      tags:
+        - etch
+        - process-control
+        - semiconductor
+
+    - term: Advanced Packaging
+      definition: >-
+        Semiconductor packaging techniques beyond traditional wire-bonding, including
+        flip-chip, wafer-level packaging, 2.5D/3D integration, and chiplet-based designs.
+        KLA provides inspection and metrology for advanced packaging substrates and
+        interconnects.
+      tags:
+        - packaging
+        - advanced-packaging
+        - semiconductor
+
+    - term: Defect Classification
+      definition: >-
+        Automated categorization of detected defects by type, size, and origin using
+        machine learning and image analysis. Accurate defect classification enables
+        engineers to prioritize yield excursions and identify root causes quickly.
+      tags:
+        - defect
+        - classification
+        - machine-learning
+
+    - term: Bright Field Inspection
+      definition: >-
+        An optical inspection technique where the detector collects light reflected
+        directly from the wafer surface. Bright field tools are highly sensitive to
+        pattern defects and are used for patterned wafer inspection at advanced
+        technology nodes.
+      tags:
+        - inspection
+        - optical
+        - wafer
+
+    - term: Electron Beam (e-beam) Inspection
+      definition: >-
+        Inspection technology using a focused electron beam to image wafer surfaces
+        at very high resolution. E-beam tools are used to detect and review sub-nanometer
+        defects that are below the resolution limit of optical inspection systems.
+      tags:
+        - inspection
+        - electron-beam
+        - nanoscale

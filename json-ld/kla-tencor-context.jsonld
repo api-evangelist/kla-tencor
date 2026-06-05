@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "kla": "https://www.kla.com/vocabulary#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+
+    "Organization": "schema:Organization",
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "foundingDate": "schema:foundingDate",
+    "legalName": "schema:legalName",
+    "sameAs": "schema:sameAs",
+
+    "KLACorporation": {
+      "@id": "https://www.kla.com",
+      "@type": "schema:Organization",
+      "schema:name": "KLA Corporation",
+      "schema:legalName": "KLA Corporation",
+      "schema:url": "https://www.kla.com",
+      "schema:description": "Leader in process control and process-enabling solutions for semiconductor wafer and reticle manufacturing, integrated circuits, packaging, printed circuit boards, and flat panel displays.",
+      "schema:industry": "Semiconductor Equipment and Process Control",
+      "schema:foundingDate": "1975",
+      "schema:sameAs": [
+        "https://www.linkedin.com/company/kla-corporation",
+        "https://en.wikipedia.org/wiki/KLA_Corporation"
+      ]
+    },
+
+    "processControl": {
+      "@id": "kla:processControl",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Process Control",
+      "skos:definition": "Systems and techniques used to monitor, measure, and control semiconductor manufacturing processes to ensure wafers and devices meet specifications."
+    },
+
+    "metrology": {
+      "@id": "kla:metrology",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Metrology",
+      "skos:definition": "Precision measurement of critical dimensions, film thickness, overlay accuracy, and other physical parameters on wafers and reticles."
+    },
+
+    "waferInspection": {
+      "@id": "kla:waferInspection",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Wafer Inspection",
+      "skos:definition": "Automated optical or electron-beam scanning of silicon wafers to detect surface defects, particles, and pattern anomalies."
+    },
+
+    "reticleInspection": {
+      "@id": "kla:reticleInspection",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Reticle Inspection",
+      "skos:definition": "High-precision inspection of photomasks used in photolithography to ensure they are free of defects."
+    },
+
+    "overlay": {
+      "@id": "kla:overlay",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Overlay",
+      "skos:definition": "The alignment accuracy between successive lithographic layers printed on a wafer."
+    },
+
+    "criticalDimension": {
+      "@id": "kla:criticalDimension",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Critical Dimension",
+      "skos:altLabel": "CD",
+      "skos:definition": "The smallest feature size that must be accurately controlled in a semiconductor device."
+    },
+
+    "yieldManagement": {
+      "@id": "kla:yieldManagement",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Yield Management",
+      "skos:definition": "Practices and systems used to maximize the percentage of functional chips produced from a semiconductor wafer."
+    },
+
+    "computationalAnalytics": {
+      "@id": "kla:computationalAnalytics",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Computational Analytics",
+      "skos:definition": "Data analysis and machine learning algorithms applied to inspection and metrology data to identify patterns and optimize manufacturing processes."
+    },
+
+    "defectClassification": {
+      "@id": "kla:defectClassification",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Defect Classification",
+      "skos:definition": "Automated categorization of detected defects by type, size, and origin using machine learning and image analysis."
+    },
+
+    "advancedPackaging": {
+      "@id": "kla:advancedPackaging",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Advanced Packaging",
+      "skos:definition": "Semiconductor packaging techniques beyond traditional wire-bonding, including flip-chip, wafer-level packaging, and 2.5D/3D integration."
+    },
+
+    "Product": "schema:Product",
+    "InspectionSystem": {
+      "@id": "kla:InspectionSystem",
+      "@type": "schema:Product",
+      "skos:definition": "A hardware and software system used to detect defects on semiconductor wafers or reticles."
+    },
+
+    "MetrologyTool": {
+      "@id": "kla:MetrologyTool",
+      "@type": "schema:Product",
+      "skos:definition": "Precision measurement equipment used to quantify physical properties of semiconductor structures."
+    },
+
+    "WaferNode": {
+      "@id": "kla:WaferNode",
+      "skos:prefLabel": "Wafer",
+      "skos:definition": "A thin slice of semiconductor material used as the substrate for microelectronic devices."
+    },
+
+    "ReticleNode": {
+      "@id": "kla:ReticleNode",
+      "skos:prefLabel": "Reticle",
+      "skos:altLabel": "Photomask",
+      "skos:definition": "A glass plate containing the circuit pattern for a single chip layer, used in photolithography to expose wafer resist."
+    }
+  }
+}
