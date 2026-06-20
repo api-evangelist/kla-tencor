@@ -9,7 +9,7 @@ description: >-
   KLA does not publish a public developer portal or open API program; customer-facing
   software and tool APIs are provided to KLA customers under contract and are not
   publicly available.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 type: Index
 tags:
   - Semiconductors
