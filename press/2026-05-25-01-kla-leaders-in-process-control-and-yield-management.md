@@ -1,7 +1,9 @@
 ---
 title: KLA | Leaders in Process Control & Yield Management
 url: https://www.kla.com/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"KLA-Tencor" press release artificial intelligence'
 position: 1
 source: serpapi-google

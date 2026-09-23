@@ -1,7 +1,9 @@
 ---
 title: 'KLA Corporation (KLAC): The Unseen Architect of the AI ...'
 url: https://markets.financialcontent.com/wral/article/predictstreet-2025-12-15-kla-corporation-klac-the-unseen-architect-of-the-ai-revolution
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"KLA-Tencor" press release artificial intelligence'
 position: 5
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: 'KLA''s AI Strategy: Analysis of Dominance in Process ...'
 url: https://www.klover.ai/kla-ai-strategy-analysis-of-dominance-in-process-control-in-semiconductors-nanoelectronics/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"KLA-Tencor" press release artificial intelligence'
 position: 2
 source: serpapi-google
